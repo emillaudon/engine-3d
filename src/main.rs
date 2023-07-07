@@ -1,4 +1,6 @@
 pub mod window;
+mod model;
+use model::*;
 
 use window::{Window, Framebuffer};
 use glam::*;
